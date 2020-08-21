@@ -1,4 +1,4 @@
-# Look Up
+# Foxit Dictionary Plugin
 Quickly look up the definition of words while you’re reading a PDF, and one-click save the definition as an annotation for future reference.
 
 ![](https://lh4.googleusercontent.com/CD7RkxCQQegt07oCi5LzhmBOdf0wHsYalbrEerwceD2_ajgubH9axMxA7uAk09ACRWnI7LDVLFXZAp8BVtf7HpZL3l3m5OE1BajaISuK_Kf09AfeQ6qTL7fhJrIRSiK-R1uVQQKH)
