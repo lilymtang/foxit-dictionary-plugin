@@ -7,12 +7,13 @@ Quickly look up the definition of words while you’re reading a PDF, and one-cl
 
 The following functionality is completed:
 - [x] User can select any text and right click to see the definition in a dialog box
-- [x] User can one-click to create a highlight annotation containing the definition 
+- [x] User can one-click create a highlight annotation containing the definition 
 - [x] User can see selected text dynamically populated in the right-click context menu
+- [x] User sees the definition for the root word if they select word variations
 
 The following improvements are in progress:
-- [] User can add annotations to any page in view, not just the active page
-- [] User can clearly understand how to add an annotation from the dialog box
+- [ ] User can add annotations to any page in view, not just the active page
+- [ ] Button text in the dialog box makes it clear how to add an annotation 
 
 ## Technologies Used
 
