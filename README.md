@@ -9,7 +9,7 @@ The following functionality is completed:
 - [x] User can select any text and right click to see the definition in a dialog box
 - [x] User can one-click create a highlight annotation containing the definition 
 - [x] User can see selected text dynamically populated in the right-click context menu
-- [x] User sees the definition for the root word if they select word variations
+- [x] User sees the definition for the root word if they select a variation of the word
 
 The following improvements are in progress:
 - [ ] User can add annotations to any page in view, not just the active page
