@@ -17,7 +17,7 @@ The following improvements are in progress:
 
 ## Video Walkthrough
 
-View the video walkthrough [here](https://youtu.be/8caU7Ly_IFk)
+View the video walkthrough [here](https://youtu.be/8caU7Ly_IFk).
 
 ## Technologies Used
 
