@@ -11,7 +11,7 @@ The following functionality is completed:
 - [x] User can see selected text dynamically populated in the right-click context menu
 - [x] User sees the definition for the root word if they select a variation of the word
 
-The following improvements are in progress:
+The following improvements are pending:
 - [ ] User can add annotations to any page in view, not just the active page
 - [ ] Button text in the dialog box makes it clear how to add an annotation 
 
