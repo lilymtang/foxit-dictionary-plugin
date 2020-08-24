@@ -15,6 +15,7 @@
     <RootNamespace>RibbonElements</RootNamespace>
     <Keyword>MFCDLLProj</Keyword>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>Dictionary</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -69,7 +70,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ModuleDefinitionFile>.\RibbonElements.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>.\Dictionary.def</ModuleDefinitionFile>
       <OutputFile>$(ProgramFiles)\Foxit Software\Foxit PhantomPDF\plugins\$(ProjectName).fpi</OutputFile>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -128,11 +129,11 @@ regedit.exe /s "$(SolutionDir)..\..\Tools\register$(ProjectName).reg"</Command>
     <None Include="res\RMS_24.png" />
     <None Include="res\RMS_32.png" />
     <None Include="res\sayhello16.pdf" />
-    <None Include="RibbonElements.def" />
+    <None Include="Dictionary.def" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\include\pimain_external\PIMain.cpp" />
-    <ClCompile Include="RibbonElements.cpp" />
+    <ClCompile Include="Dictionary.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -144,12 +145,12 @@ regedit.exe /s "$(SolutionDir)..\..\Tools\register$(ProjectName).reg"</Command>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="RibbonElements.h" />
+    <ClInclude Include="Dictionary.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="RibbonElements.rc" />
+    <ResourceCompile Include="Dictionary.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

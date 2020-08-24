@@ -16,9 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
-    <None Include="RibbonElements.def">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="res\RibbonElements.rc2">
       <Filter>Resource Files</Filter>
     </None>
@@ -33,22 +30,22 @@
     </None>
     <None Include="cert.txt" />
     <None Include="res\sayhello16.pdf" />
+    <None Include="Dictionary.def">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="RibbonElements.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\include\pimain_external\PIMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RibbonElements.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -64,9 +61,12 @@
     <ClInclude Include="keys.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="RibbonElements.rc">
+    <ResourceCompile Include="Dictionary.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>

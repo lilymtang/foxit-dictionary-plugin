@@ -11,14 +11,14 @@
 
  ---------------------------------------------------------------------
 
-RibbonElements.cpp
+Dictionary.cpp
 
  - Defines the entry point for the DLL application, the entry point is PlugInMain.
 
 *********************************************************************/
 
 #include "stdafx.h"
-#include "RibbonElements.h"
+#include "Dictionary.h"
 #include "keys.h"
 
 #include <cpprest/http_client.h>
@@ -403,7 +403,7 @@ if(handshakeVersion != HANDSHAKE_V0100)
 return FALSE;
 
 PIHandshakeData_V0100* pData = (PIHandshakeData_V0100*)handshakeData;
-pData->PIHDRegisterPlugin(pData, "RibbonElements", (FS_LPCWSTR)L"RibbonElements");
+pData->PIHDRegisterPlugin(pData, "Dictionary", (FS_LPCWSTR)L"Dictionary");
 pData->PIHDSetExportHFTsCallback(pData, &PIExportHFTs);
 pData->PIHDSetImportReplaceAndRegisterCallback(pData, &PIImportReplaceAndRegister);
 

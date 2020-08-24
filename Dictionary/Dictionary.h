@@ -1,4 +1,4 @@
-// RibbonElements.h : main header file for the RibbonElements DLL
+// Dictionary.h : main header file for the Dictionary DLL
 //
 
 #pragma once
@@ -9,8 +9,8 @@
 
 #include "resource.h"		// main symbols
 
-// CRibbonElementsApp
-// See RibbonElements.cpp for the implementation of this class
+// CDictionaryApp
+// See Dictionary.cpp for the implementation of this class
 //
 
 class CDictionaryApp : public CWinApp
