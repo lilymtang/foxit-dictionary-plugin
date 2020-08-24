@@ -15,6 +15,10 @@ The following improvements are in progress:
 - [ ] User can add annotations to any page in view, not just the active page
 - [ ] Button text in the dialog box makes it clear how to add an annotation 
 
+## Video Walkthrough
+
+View the video walkthrough [here](https://youtu.be/8caU7Ly_IFk)
+
 ## Technologies Used
 
 Foxit PhantomPDF Plugin SDK, Microsoft C++ REST SDK, Merriam-Webster Dictionary API
