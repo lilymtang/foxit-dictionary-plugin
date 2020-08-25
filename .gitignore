@@ -28,7 +28,6 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
@@ -413,8 +412,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-
-# API keys header
-keys.h
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,c++,windows
