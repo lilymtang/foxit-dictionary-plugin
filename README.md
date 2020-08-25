@@ -19,6 +19,10 @@ The following improvements are pending:
 
 View the video walkthrough [here](https://youtu.be/8caU7Ly_IFk).
 
+## Installation
+
+This project uses 2 third-party dynamically linked libraries (.dll) which are provided in the Dictionary folder. You will need to copy these .dll files to the plugins directory where Foxit PhantomPDF is installed on your computer. The full step-by-step guide is [here](https://drive.google.com/file/d/1SZXN-nivu1K_pNViyLAATRgqH_g4QC_c/view?usp=sharing).
+
 ## Technologies Used
 
 Foxit PhantomPDF Plugin SDK, Microsoft C++ REST SDK, Merriam-Webster Dictionary API
